@@ -18,7 +18,7 @@ const Home = () => {
           headerStyle: { backgroundColor: COLORS.lightweight },
           headerShadowVisible: false,
           headerLeft: () => (
-            <ScreenHeaderBtn iconUrl={icosns.menu} dimension="60%" />
+            <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
           ),
           headerRight: () => (
             <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />
